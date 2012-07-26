@@ -1,12 +1,13 @@
 package Log::Log4perl::Appender::Lim::CLI;
 
-use common::sense;
+use warnings;
+use strict;
 
 use base qw(Log::Log4perl::Appender);
 
 =head1 NAME
 
-Log::Log4perl::Appender::Lim::CLI
+Log::Log4perl::Appender::Lim::CLI - A Log4perl appender for Lim CLI
 
 =head1 VERSION
 
