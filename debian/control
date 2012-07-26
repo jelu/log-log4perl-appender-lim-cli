@@ -1,0 +1,16 @@
+Source: liblog-log4perl-appender-lim-cli-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 7)
+Build-Depends-Indep: liblog-log4perl-perl (>= 1), perl
+Maintainer: Jerry Lundström <lundstrom.jerry@gmail.com>
+Standards-Version: 3.9.1
+Homepage: http://search.cpan.org/dist/Log-Log4perl-Appender-Lim-CLI/
+
+Package: liblog-log4perl-appender-lim-cli-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}, liblog-log4perl-perl (>= 1), perl
+Description: A Log4perl appender for Lim CLI
+ (no description was found)
+ .
+ This description was automagically extracted from the module by dh-make-perl.

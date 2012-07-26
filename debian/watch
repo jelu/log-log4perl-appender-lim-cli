@@ -1,0 +1,2 @@
+version=3
+http://search.cpan.org/dist/Log-Log4perl-Appender-Lim-CLI/   .*/Log-Log4perl-Appender-Lim-CLI-v?(\d[\d.-]+)\.(?:tar(?:\.gz|\.bz2)?|tgz|zip)$
