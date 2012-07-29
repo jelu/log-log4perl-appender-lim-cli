@@ -11,19 +11,16 @@ Log::Log4perl::Appender::Lim::CLI - A Log4perl appender for Lim CLI
 
 =head1 VERSION
 
-Version 0.1
+Version 0.101
 
 =cut
 
-our $VERSION = '0.1';
+our $VERSION = '0.101';
 
-=head1 SYNOPSIS
+=head1 DESCRIPTION
 
-...
-
-=head1 SUBROUTINES/METHODS
-
-=head2 function1
+This module is used for getting L<Log::Log4perl> output to the L<Lim::CLI>
+module.
 
 =cut
 
@@ -38,10 +35,6 @@ sub new {
     
     bless $self, $class;
 }
-
-=head2 function1
-
-=cut
 
 sub log {
     my($self, %params) = @_;
@@ -58,12 +51,7 @@ Jerry Lundström, C<< <lundstrom.jerry at gmail.com> >>
 
 =head1 BUGS
 
-Please report any bugs or feature requests to C<bug-lim at rt.cpan.org>, or through
-the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Log::Log4perl::Appender::Lim::CLI>.  I will be notified, and then you'll
-automatically be notified of progress on your bug as I make changes.
-
-
-
+Please report any bugs or feature requests to L<https://github.com/jelu/log-log4perl-appender-lim-cli/issues>.
 
 =head1 SUPPORT
 
@@ -71,32 +59,17 @@ You can find documentation for this module with the perldoc command.
 
     perldoc Log::Log4perl::Appender::Lim::CLI
 
-
 You can also look for information at:
 
 =over 4
 
-=item * RT: CPAN's request tracker (report bugs here)
+=item * Lim issue tracker (report bugs here)
 
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Log::Log4perl::Appender::Lim::CLI>
-
-=item * AnnoCPAN: Annotated CPAN documentation
-
-L<http://annocpan.org/dist/Log::Log4perl::Appender::Lim::CLI>
-
-=item * CPAN Ratings
-
-L<http://cpanratings.perl.org/d/Log::Log4perl::Appender::Lim::CLI>
-
-=item * Search CPAN
-
-L<http://search.cpan.org/dist/Log::Log4perl::Appender::Lim::CLI/>
+L<https://github.com/jelu/log-log4perl-appender-lim-cli/issues>
 
 =back
 
-
 =head1 ACKNOWLEDGEMENTS
-
 
 =head1 LICENSE AND COPYRIGHT
 

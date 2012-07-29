@@ -18,9 +18,9 @@ WriteMakefile(
     (! eval { ExtUtils::MakeMaker->VERSION(6.46) } ? () :
         (META_ADD => {
             resources => {
-                homepage   => 'http://github.com/jelu/lim/wiki',
-                repository => 'http://github.com/jelu/lim',
-                bugtracker => 'http://github.com/jelu/lim/issues',
+                homepage   => 'http://github.com/jelu/log-log4perl-appender-lim-cli/wiki',
+                repository => 'http://github.com/jelu/log-log4perl-appender-lim-cli',
+                bugtracker => 'http://github.com/jelu/log-log4perl-appender-lim-cli/issues',
             },
         })
     ),
