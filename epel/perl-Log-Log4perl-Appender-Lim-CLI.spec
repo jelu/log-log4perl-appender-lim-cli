@@ -1,5 +1,5 @@
 Name:           perl-Log-Log4perl-Appender-Lim-CLI-Server
-Version:        0.12
+Version:        0.13
 Release:        1%{?dist}
 Summary:        Log::Log4perl::Appender::Lim::CLI - A Log4perl appender for Lim CLI
 
@@ -51,6 +51,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Aug 19 2012 Jerry Lundström < lundstrom.jerry at gmail.com > - 0.13-1
+- New upstream release.
+
 * Tue Aug 07 2012 Jerry Lundström < lundstrom.jerry at gmail.com > - 0.12-1
 - Initial package for Fedora
 
