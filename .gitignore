@@ -13,3 +13,5 @@ META.yml
 MYMETA.yml
 nytprof.out
 pm_to_blib
+pod2htm*.tmp
+Log-Log4perl-Appender-Lim-CLI-*
