@@ -5,6 +5,8 @@ use strict;
 
 use base qw(Log::Log4perl::Appender);
 
+=encoding utf8
+
 =head1 NAME
 
 Log::Log4perl::Appender::Lim::CLI - A Log4perl appender for Lim CLI
