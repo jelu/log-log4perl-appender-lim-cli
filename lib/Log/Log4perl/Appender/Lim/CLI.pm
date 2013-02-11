@@ -41,7 +41,7 @@ sub new {
 sub log {
     my($self, %params) = @_;
 
-    if (exists $self->{cli}) {
+    if (defined $self->{cli}) {
         $params{message} =~ s/[\r\n]+$//o;
         $self->{cli}->println($params{message});
     }
