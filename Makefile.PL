@@ -8,13 +8,24 @@ WriteMakefile(
     AUTHOR              => q{Jerry Lundström <lundstrom.jerry@gmail.com>},
     VERSION_FROM        => 'lib/Log/Log4perl/Appender/Lim/CLI.pm',
     ABSTRACT_FROM       => 'lib/Log/Log4perl/Appender/Lim/CLI.pm',
-    ($ExtUtils::MakeMaker::VERSION >= 6.3002
-      ? ('LICENSE'=> 'perl')
-      : ()),
-    PREREQ_PM => {
-        'Test::More' => 0,
-        'Log::Log4perl' => 1,
-    },
+    (! eval { ExtUtils::MakeMaker->VERSION(6.3002) } ? () :
+        (LICENSE => 'perl')
+    ),
+    (eval { ExtUtils::MakeMaker->VERSION(6.5503) } ?
+    (
+        BUILD_REQUIRES => {
+            'Test::More' => 0,
+            'Log::Log4perl' => 1,
+        },
+        PREREQ_PM => {
+            'Log::Log4perl' => 1,
+        }
+    ) : (
+        PREREQ_PM => {
+            'Test::More' => 0,
+            'Log::Log4perl' => 1,
+        }
+    )),
     (! eval { ExtUtils::MakeMaker->VERSION(6.46) } ? () :
         (META_ADD => {
             resources => {
