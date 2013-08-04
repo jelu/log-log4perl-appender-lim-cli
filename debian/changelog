@@ -1,6 +1,15 @@
+liblog-log4perl-appender-lim-cli-perl (0.14-1~unstable+1) unstable; urgency=low
+
+  * New release v0.14.
+    - Rewrite Makefile.PL to better check ExtUtils::MakeMaker version and
+      use BUILD_REQUIRES.
+
+ -- Jerry Lundström <lundstrom.jerry@gmail.com>  Sun, 04 Aug 2013 12:43:11 +0200
+
 liblog-log4perl-appender-lim-cli-perl (0.13-1~unstable+1) unstable; urgency=low
 
   * New upstream release.
+    - Added encoding to pod.
 
  -- Jerry Lundström <lundstrom.jerry@gmail.com>  Sun, 19 Aug 2012 11:06:58 +0200
 
