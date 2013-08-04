@@ -13,11 +13,11 @@ Log::Log4perl::Appender::Lim::CLI - A Log4perl appender for Lim CLI
 
 =head1 VERSION
 
-Version 0.13
+Version 0.14
 
 =cut
 
-our $VERSION = '0.13';
+our $VERSION = '0.14';
 
 =head1 DESCRIPTION
 
@@ -41,7 +41,7 @@ sub new {
 sub log {
     my($self, %params) = @_;
 
-    if (exists $self->{cli}) {
+    if (defined $self->{cli}) {
         $params{message} =~ s/[\r\n]+$//o;
         $self->{cli}->println($params{message});
     }
