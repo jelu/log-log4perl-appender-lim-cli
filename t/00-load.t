@@ -4,9 +4,6 @@ use Test::More tests => 2;
 
 BEGIN {
     use_ok( 'Log::Log4perl' ) || print "Bail out!\n";
-}
-
-BEGIN {
     use_ok( 'Log::Log4perl::Appender::Lim::CLI' ) || print "Bail out!\n";
 }
 

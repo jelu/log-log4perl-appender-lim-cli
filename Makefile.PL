@@ -16,14 +16,17 @@ WriteMakefile(
         BUILD_REQUIRES => {
             'Test::More' => 0,
             'Log::Log4perl' => 1,
+            'Log::Log4perl::Appender' => 0
         },
         PREREQ_PM => {
             'Log::Log4perl' => 1,
+            'Log::Log4perl::Appender' => 0
         }
     ) : (
         PREREQ_PM => {
             'Test::More' => 0,
             'Log::Log4perl' => 1,
+            'Log::Log4perl::Appender' => 0
         }
     )),
     (! eval { ExtUtils::MakeMaker->VERSION(6.46) } ? () :
