@@ -1,5 +1,8 @@
 Revision history for Log-Log4perl-Appender-Lim-CLI
 
+0.15    2013-08-05
+        - Rewrite 00-load.t some and removed pod-coverage.t
+
 0.14    2013-08-04
         - Rewrite Makefile.PL to better check ExtUtils::MakeMaker version and
         use BUILD_REQUIRES.
