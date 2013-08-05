@@ -1,5 +1,5 @@
 Name:           perl-Log-Log4perl-Appender-Lim-CLI-Server
-Version:        0.14
+Version:        0.15
 Release:        1%{?dist}
 Summary:        Log::Log4perl::Appender::Lim::CLI - A Log4perl appender for Lim CLI
 
@@ -51,6 +51,10 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Aug 05 2013 Jerry Lundström < lundstrom.jerry at gmail.com > - 0.15-1
+- New upstream release.
+  - Rewrite 00-load.t some and removed pod-coverage.t
+
 * Sun Aug 04 2013 Jerry Lundström < lundstrom.jerry at gmail.com > - 0.14-1
 - New upstream release.
   - Rewrite Makefile.PL to better check ExtUtils::MakeMaker version and
