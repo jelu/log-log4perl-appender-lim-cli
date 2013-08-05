@@ -1,3 +1,10 @@
+liblog-log4perl-appender-lim-cli-perl (0.15-1~unstable+1) unstable; urgency=low
+
+  * New release v0.15.
+    - Rewrite 00-load.t some and removed pod-coverage.t
+
+ -- Jerry Lundström <lundstrom.jerry@gmail.com>  Mon, 05 Aug 2013 07:36:32 +0200
+
 liblog-log4perl-appender-lim-cli-perl (0.14-1~unstable+1) unstable; urgency=low
 
   * New release v0.14.
